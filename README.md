@@ -43,7 +43,14 @@ wsl --set-default-version 2
 
 ### **4. Install a Linux Distribution (Ubuntu)**
 
-I selected **Ubuntu** and downloaded it from the Microsoft Store. Upon launching it for the first time, I created my Linux username and password.
+You can download **Ubuntu** from the Microsoft Store, but I chose to download it using PowerShell. First, you can see a list of all available Linux distributions by running this command in PowerShell:
+```
+wsl --list --online
+```
+Then, to install a specific distribution (in my case, Ubuntu), I ran the following command. This automatically downloads and installs the latest version.
+```
+wsl --install -d Ubuntu
+```
 
 ---
 
