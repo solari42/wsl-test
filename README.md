@@ -8,7 +8,11 @@ This guide documents my journey and the steps I followed to install and configur
 
 ## Installation Steps
 
-### **1. Enable WSL and Virtual Machine Platform**  *or check if your intel vt-x is enabled... mine is already enabled i checked it on Task Manager > Performance > Virtualization... and it says there "Enabled"*
+### **1. Enable WSL and Virtual Machine Platform**  
+
+**or check if your intel vt-x is enabled... mine is already enabled i checked it on Task Manager > Performance > Virtualization... and it says there "Enabled"**
+
+**for amd check if your amd-v is enabled...**
 
 To begin, I enabled the necessary Windows features by opening **PowerShell as Administrator** and running the following commands:
 
