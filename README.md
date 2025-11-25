@@ -8,7 +8,7 @@ This guide documents my journey and the steps I followed to install and configur
 
 ## Installation Steps
 
-### **1. Enable WSL and Virtual Machine Platform**
+### **1. Enable WSL and Virtual Machine Platform**  *or check if your intel vt-x is enabled... mine is already enabled i checked it on Task Manager > Performance > Virtualization... and it says there "Enabled"*
 
 To begin, I enabled the necessary Windows features by opening **PowerShell as Administrator** and running the following commands:
 
@@ -55,26 +55,8 @@ sudo apt install build-essential git -y
 
 ---
 
-## What I Learned / Key Takeaways
 
-* WSL provides a seamless bridge between Windows and Linux environments.
-* Understanding the difference between **WSL 1** and **WSL 2** helped me optimize performance.
-* The `wsl` command is powerful for managing Linux distributions on Windows.
-* Examples of potential learnings to add:
+*I was curious on how I can run linux on windows without using virtualbox/virtualmachine*
 
-  * Navigating between Windows and Linux filesystems.
-  * Setting up VS Code integration with WSL.
-  * Fixing common WSL-related errors.
-
----
-
-## Future Notes / Troubleshooting
-
-* **[Document any issues encountered and their solutions]**
-* **[List further configurations planned]**
-* **[Include links to helpful resources such as Microsoft Docs or tutorials]**
-
----
-
-*This guide is part of my ongoing learning journey as I continue to explore Linux, development workflows, and system configuration.*
+*I also downloaded kalilinux just tryout its tools*
 
