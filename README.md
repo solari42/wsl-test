@@ -29,11 +29,19 @@ After running these commands, a system restart may be required.
 
 I downloaded and installed the latest **WSL2 Linux kernel update package** from Microsoft's official documentation to ensure compatibility and performance improvements.
 
+or you can just open PowerShell or Command Prompt as an administrator and run: 
+
+```
+wsl --install
+```
+
 ---
 
 ### **3. Set WSL 2 as the Default Version**
 
-To ensure that all newly installed Linux distributions use WSL 2 by default, I ran:
+When using the simplified wsl --install command on Windows 11, WSL 2 is typically set as the default version automatically for new Linux distributions. Therefore, I didn't need to run this command manually.
+
+For those installing manually or on older Windows versions, this command ensures new distributions use WSL 2 by default:
 
 ```
 wsl --set-default-version 2
